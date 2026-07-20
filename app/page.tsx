@@ -40,12 +40,14 @@ export default function Home() {
               Coming Soon
             </button>
 
-            <button
-              type="button"
-              className="rounded-full border border-white/20 px-7 py-4 font-bold text-white"
+            <a
+              href="https://x.com/team_tobaccoin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white/20 px-7 py-4 font-bold text-white transition hover:border-white/50 hover:bg-white/5"
             >
               Join the Community
-            </button>
+            </a>
           </div>
         </div>
 
